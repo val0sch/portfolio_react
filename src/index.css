@@ -4,16 +4,16 @@
   margin: 0;
   padding: 0;
   outline: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   list-style: none;
   text-decoration: none;
 }
 :root {
   --color-bg: #ed6a5a;
-  --color-bg-variant: #9bc1bc;
+  --color-bg-variant: #8caea9;
   --color-primary: #f4f1bb;
   --color-primary-variant: #f4f1bbc5;
-  --color-white: rgb(47, 44, 44);
+  --color-dark: rgb(47, 44, 44);
   --color-light: rgba(255, 255, 255, 0.907);
 
   --container-width-lg: 75%;
@@ -69,15 +69,16 @@ section > h2 {
 }
 
 a {
-  color: var(--color-primary);
+  color: var(--color-primar-v);
   transition: var(--transition);
 }
 
 a:hover {
-  color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .btn {
+
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
@@ -89,7 +90,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background: var(--color-dark);
   color: var(--color-bg);
   border-color: transparent;
 }
