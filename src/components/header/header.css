@@ -30,12 +30,13 @@ header {
 }
 
 .me {
-  background: var(--color-bg-variant);
+  background: linear-gradient(var(--color-primary-variant), transparent);
   width: 20rem;
   height: auto;
   margin: 0 auto;
   margin-top: 4rem;
   border-radius: 20rem 20em 0 0;
+  overflow: hidden;
 }
 
 .scroll__down {
@@ -44,6 +45,7 @@ header {
   bottom: 21rem;
   transform: rotate(90deg);
   font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======== */
@@ -72,4 +74,5 @@ header {
   .scroll__down {
     display: none;
   }
+  
 }

@@ -35,8 +35,8 @@ body {
   background: var(--color-bg);
   color: var(--color-light);
   line-height: 1.7;
-  background-image: url("../src/assets/concrete-wall.png");
-  background-size: cover;
+  background-image: url("../src/assets/asfalt--light--1920x1080.png");
+  background-size: contain;
 }
 
 /* ==================== GENERAL STYLES ====================== */
@@ -52,6 +52,7 @@ h1 {
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2,
@@ -78,7 +79,6 @@ a:hover {
 }
 
 .btn {
-
   width: max-content;
   display: inline-block;
   color: var(--color-primary);
