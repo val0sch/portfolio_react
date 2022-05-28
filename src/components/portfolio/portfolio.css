@@ -50,3 +50,18 @@ section #portfolio {
       
     
  
+      @media screen and (max-width:600px) {
+        #portfolio h2{
+            margin-bottom: 2rem;
+        }
+#carousel{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.description{
+    height: 12rem;
+    
+}
+          
+      }

@@ -17,10 +17,13 @@ const Portfolio = () => {
             <img src={mixDrink} />
             <div className="description">
               <p>
-                <strong>Mix and Drink</strong> Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Asperiores sequi quisquam
-                temporibus vero nemo et perspiciatis minus natus reiciendis
-                cumque, dolorem qui at.
+                <strong>Mix and Drink</strong> - Wild Code School
+                <br />
+                (cocktails populaires, barre de recherche et recherche
+                aléatoire)
+                <br />
+                Appel de l'API cocktailDB, site construit avec la librairie
+                REACT
               </p>
 
               <a
@@ -37,7 +40,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site
+                Visiter le site
               </a>
             </div>
           </div>
@@ -45,10 +48,9 @@ const Portfolio = () => {
             <img src={hackaton} />
             <div className="description">
               <p>
-                <strong>Hachathon n°1</strong> Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Asperiores sequi quisquam
-                temporibus vero nemo et perspiciatis minus natus reiciendis
-                cumque, dolorem qui at.
+                <strong>Hackathon n°1 </strong> - Wild Code School <br />{" "}
+                Consommer une API avec REACT <br /> 36h pour réaliser un site
+                sur le thème de l'écologie (économie circulaire)
               </p>
 
               <a
@@ -65,7 +67,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site
+                Visiter le site
               </a>
             </div>
           </div>
@@ -73,10 +75,9 @@ const Portfolio = () => {
             <img src={todolist} />
             <div className="description">
               <p>
-                <strong>To do list React</strong> Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Asperiores sequi quisquam
-                temporibus vero nemo et perspiciatis minus natus reiciendis
-                cumque, dolorem qui at.
+                <strong>To Do List</strong> <br />
+                Réalisation d'une "to do list" avec la librairie REACT <br />
+                Utilisation des Hooks (useState, useEffect)
               </p>
 
               <a
@@ -93,7 +94,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site
+                Visiter le site
               </a>
             </div>
           </div>
@@ -101,10 +102,10 @@ const Portfolio = () => {
             <img src={brasserie} />
             <div className="description">
               <p>
-                <strong>Brasserie Outsiders</strong> Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit. Asperiores sequi quisquam
-                temporibus vero nemo et perspiciatis minus natus reiciendis
-                cumque, dolorem qui at.
+                <strong>Brasserie Outsiders</strong>
+                <br />
+                Projet n°1 - Wild Code School <br />
+                Site vitrine en utilisant les languages HTML et CSS
               </p>
 
               <a
@@ -121,7 +122,7 @@ const Portfolio = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Site
+                Visiter le site
               </a>
             </div>
           </div>
