@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.c7300c2c.css",
+    "main.js": "/portfolio_react/static/js/main.bdde6ee5.js",
+    "static/media/mePict.png": "/portfolio_react/static/media/mePict.ea5796942966463362ed.png",
+    "static/media/asfalt--light--1920x1080.png": "/portfolio_react/static/media/asfalt--light--1920x1080.33c8cd53c14b2706f7d5.png",
+    "static/media/cv_valerie_ielsch.pdf": "/portfolio_react/static/media/cv_valerie_ielsch.60ca26a26120867dff7f.pdf",
+    "index.html": "/portfolio_react/index.html",
+    "main.c7300c2c.css.map": "/portfolio_react/static/css/main.c7300c2c.css.map",
+    "main.bdde6ee5.js.map": "/portfolio_react/static/js/main.bdde6ee5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7300c2c.css",
+    "static/js/main.bdde6ee5.js"
+  ]
+}
