@@ -29,12 +29,11 @@ nav a.active {
     display: flex;
     flex-direction: row;
     left: 50%;
-transform: translateX(-50%);
-background-color: rgb(57, 56, 56);
-    }
+    transform: translateX(-50%);
+    background-color: rgb(57, 56, 56);
+  }
 
-    nav a.active {
-      background-color: var(--color-bg);
-     
-    }
+  nav a.active {
+    background-color: var(--color-bg);
+  }
 }

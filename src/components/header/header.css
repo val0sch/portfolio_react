@@ -67,9 +67,8 @@ header {
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======== */
 
 @media screen and (max-width: 600px) {
-  .header__container:first-child{
-    margin-top: 3rem;
-  }
+  .header__container:first-child {
+    margin-top: 3rem; }
   .me {
     width: 15rem;
     height: auto;
