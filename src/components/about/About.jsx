@@ -6,7 +6,7 @@ const About = () => {
     <section id="about">
       <h5>Get to Know</h5>
       <h2>About me</h2>
-      <p>
+      <div className="text">
         Lorem Ipsum has been the industry's standard dummy text ever since the
         1500s, when an unknown printer took a galley of type and scrambled it to
         make a type specimen book. It has survived not only five centuries, but
@@ -15,7 +15,7 @@ const About = () => {
         sheets containing Lorem Ipsum passages, and more recently with desktop
         publishing software like Aldus PageMaker including versions of Lorem
         Ipsum.
-      </p>
+      </div>
     </section>
   );
 };

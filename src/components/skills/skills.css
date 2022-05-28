@@ -1,0 +1,79 @@
+#skills {
+  background-image: url("../../assets/asfalt--light--1920x1080.png");
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  margin: 2rem;
+}
+.boxes-container h2{
+  color: rgb(57, 56, 56);
+}
+
+.box-front,
+.box-back {
+  background-color: var(--color-primary-variant);
+  color: var(--color-bg);
+  text-align: center;
+  padding: 0.5rem;
+
+}
+.box-inner{
+  margin-bottom: 2rem;
+}
+
+.list{
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 3rem;
+}
+.logo{
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 1000px) {
+  .boxes-container {
+    flex-direction: row;
+    gap:5rem;
+  }
+  .box {
+    background-color: transparent;
+    width: 25rem;
+    height: 30rem;
+    perspective: 1000px;
+  }
+  .box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+  }
+  .box:hover .box-inner {
+    transform: rotateY(180deg);
+  }
+  .box-front,
+  .box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box-back {
+    background-color: #41443e;
+    color: var(--color-primary-variant);
+    transform: rotateY(180deg);
+  }
+
+  
+
+}

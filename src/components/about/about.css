@@ -1,0 +1,11 @@
+.text {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  line-height: 2rem;
+}
+ section #about{
+   align-items: center;
+ }

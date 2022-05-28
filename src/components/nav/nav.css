@@ -1,7 +1,6 @@
 nav {
   background: rgba(0, 0, 0, 0.3);
-  width: max-content;
-  display: block;
+
   padding: 0.7rem 1.4rem;
   z-index: 2;
   position: fixed;
@@ -16,11 +15,26 @@ nav a {
   font-size: 1.5rem;
   color: var(--color-primary);
 
-  padding: 0.5rem 0.5rem 0.1rem 0.5rem; 
+  padding: 0.5rem 0.5rem 0.1rem 0.5rem;
 }
 
 nav a.active {
   background-color: rgba(29, 27, 27, 0.639);
   border-radius: 1rem;
-  
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+transform: translateX(-50%);
+background-color: rgb(57, 56, 56);
+    }
+
+    nav a.active {
+      background-color: var(--color-bg);
+     
+    }
 }
