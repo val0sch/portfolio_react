@@ -25,18 +25,18 @@ const Nav = () => {
         <CgUserlane />
       </a>
       <a
-        href="#skills"
-        onClick={() => setActiveNav("#skills")}
-        className={activeNav === "#skills" ? "active" : ""}
-      >
-        <BsFillGearFill />
-      </a>
-      <a
         href="#portfolio"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
         <RiFolder5Fill />
+      </a>
+      <a
+        href="#skills"
+        onClick={() => setActiveNav("#skills")}
+        className={activeNav === "#skills" ? "active" : ""}
+      >
+        <BsFillGearFill />
       </a>
 
       <a

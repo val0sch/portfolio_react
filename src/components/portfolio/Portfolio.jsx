@@ -11,19 +11,19 @@ const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2>Portfolio</h2>
-      <div id="carousel">
-        <Carousel>
-          <div className="image">
+      <div id="container-carousel">
+        <Carousel useKeyboardArrows>
+          <div className="box-img-desc">
             <img src={mixDrink} />
             <div className="description">
               <p>
-                <strong>Mix and Drink</strong> - Wild Code School
+                <strong>Mix and Drink</strong> Projet 2-{" "}
+                <em>Wild Code School</em>
                 <br />
-                (cocktails populaires, barre de recherche et recherche
-                aléatoire)
+                API cocktailDB et librairie REACT
                 <br />
-                Appel de l'API cocktailDB, site construit avec la librairie
-                REACT
+                barre de recherche, bouton Random et lien vers les cocktails
+                populaires
               </p>
 
               <a
@@ -44,13 +44,14 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
+
           <div className="image">
             <img src={hackaton} />
             <div className="description">
               <p>
-                <strong>Hackathon n°1 </strong> - Wild Code School <br />{" "}
-                Consommer une API avec REACT <br /> 36h pour réaliser un site
-                sur le thème de l'écologie (économie circulaire)
+                <strong>Hackathon n°1 </strong> : 36h -{" "}
+                <em>Wild Code School</em> <br /> Consommer une API avec REACT{" "}
+                <br /> site sur le thème de l'économie circulaire
               </p>
 
               <a
@@ -76,7 +77,7 @@ const Portfolio = () => {
             <div className="description">
               <p>
                 <strong>To Do List</strong> <br />
-                Réalisation d'une "to do list" avec la librairie REACT <br />
+                Librairie REACT <br />
                 Utilisation des Hooks (useState, useEffect)
               </p>
 
@@ -102,10 +103,11 @@ const Portfolio = () => {
             <img src={brasserie} />
             <div className="description">
               <p>
-                <strong>Brasserie Outsiders</strong>
+                <strong>Brasserie Outsiders</strong> Projet 1 -{" "}
+                <em>Wild Code School</em> <br />
+                Site vitrine d'un restaurant fictif
                 <br />
-                Projet n°1 - Wild Code School <br />
-                Site vitrine en utilisant les languages HTML et CSS
+                HTML et CSS
               </p>
 
               <a

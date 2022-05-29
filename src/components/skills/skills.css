@@ -1,5 +1,5 @@
 #skills {
-  background-image: url("../../assets/asfalt--light--1920x1080.png");
+  background: var(--color-bg);
 }
 
 .boxes-container {
@@ -10,13 +10,12 @@
   margin: 2rem;
 }
 .boxes-container h2 {
-  color: rgb(57, 56, 56);
+  color: var(--color-dark);
 }
 
 .box-front,
 .box-back {
-  background-color: var(--color-primary-variant);
-  color: var(--color-bg);
+  box-shadow: 20px 20px 60px #a6bebc, -20px -20px 60px #e0fffe;
   text-align: center;
   padding: 0.5rem;
 }
@@ -27,21 +26,26 @@
 .list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
+  grid-gap: 2rem;
 }
 .logo {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 1000px) {
+  #skills h2 {
+    /* background-image: url("../../assets/asfalt--light--1920x1080.png"); */
+    padding: 4rem 0 2rem 0;
+  }
+
   .boxes-container {
     flex-direction: row;
     gap: 5rem;
   }
   .box {
     background-color: transparent;
-    width: 25rem;
-    height: 30rem;
+    width: 20rem;
+    height: 25rem;
     perspective: 1000px;
   }
   .box-inner {
@@ -68,8 +72,12 @@
   }
 
   .box-back {
-    background-color: #41443e;
-    color: var(--color-primary-variant);
+    background-color: var(--color-bg);
+
+    background: linear-gradient(145deg, #b0c9c7, #d1efec);
+    box-shadow: 20px 20px 60px #a6bebc, -20px -20px 60px #e0fffe;
+
+    color: var(--color-dark);
     transform: rotateY(180deg);
   }
 }

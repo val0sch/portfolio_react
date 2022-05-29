@@ -9,12 +9,10 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: #ed6b5ae0;
-  --color-bg-variant: #8caea9;
-  --color-primary: #f4f1bb;
-  --color-primary-variant: #f4f1bbc5;
-  --color-dark: rgb(47, 44, 44);
-  --color-light: rgba(255, 255, 255, 0.907);
+  --color-bg: linear-gradient(145deg, #b0c9c7, #d1efec);
+  --color-bg-light: #edf6f9;
+  --color-dark: rgb(58, 56, 56);
+  --color-transparent-dark: rgba(0, 0, 0, 0.523);
 
   --container-width-lg: 75%;
   --container-width-md: 86 %;
@@ -32,8 +30,8 @@ html {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: var(--color-bg);
-  color: var(--color-light);
+  background: var(--color-bg-light);
+  color: var(--color-dark);
   line-height: 1.7;
 }
 
@@ -47,28 +45,25 @@ body {
 h1 {
   font-size: 2rem;
 }
+h2 {
+  font-size: 1.2rem;
+}
 
 section {
-  padding-top: 2rem;
   min-height: 100vh;
 }
 
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 section > h2 {
-  color: var(--color-primary);
-  margin-bottom: 3rem;
-}
-
-.text-light {
-  color: var(--color-light);
+  color: var(--color-dark);
 }
 
 a {
-  color: var(--color-primar-v);
+  color: var(--color-dark);
   transition: var(--transition);
 }
 
@@ -79,11 +74,11 @@ a:hover {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-dark);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
-  border: 1px solid var(--color-primary);
+  border: 1.5px solid var(--color-bg);
   transition: var(--transition);
 }
 
@@ -94,8 +89,8 @@ a:hover {
 }
 
 .btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
+  background: var(--color-bg);
+  color: var(--color-dark);
 }
 
 img {
@@ -109,10 +104,6 @@ img {
   .container {
     width: var(--container-width-md);
   }
-
-  section > h2 {
-    margin-bottom: 6rem;
-  }
 }
 
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======== */
@@ -123,6 +114,9 @@ img {
   }
 
   section {
-    padding-top:  6rem;
+    padding-top: 5.5rem;
+  }
+  section > h2 {
+    margin-bottom: 2rem;
   }
 }

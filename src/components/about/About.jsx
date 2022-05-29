@@ -4,8 +4,7 @@ import "./about.css";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About me</h2>
+      <h2>A propos</h2>
       <div className="text">
         Lorem Ipsum has been the industry's standard dummy text ever since the
         1500s, when an unknown printer took a galley of type and scrambled it to

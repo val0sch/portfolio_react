@@ -1,67 +1,89 @@
-section #portfolio {
-  padding: 0;
+#portfolio {
+  padding-top: 1rem;
+  background-color: var(--color-bg-light);
 }
-#portfolio h2{
-    margin-bottom: 0.8rem;
+
+#portfolio h2 {
+  margin-bottom: 1rem;
 }
-#carousel{
-    width: 50%;
-    margin: 0 auto;
+#container-carousel {
+  max-width: 50%;
+  margin: 0 auto;
 }
+
 .carousel {
   display: flex;
   justify-content: center;
+}
+.carousel-status {
+  display: none;
+}
 
+.description {
+  height: 11rem;
+  line-height: 1.6rem;
+  color: var(--color-bg-light);
+}
+.description a {
+  margin-top: 0.8rem;
+}
+.carousel button:nth-child(3) {
+  display: none;
+}
+.carousel button:nth-child(1) {
+  display: none;
 }
 .carousel .slide {
   justify-content: center;
+  background-color: var(--color-transparent-dark);
+}
+.carousel .slide img {
+  padding-bottom: 1vh;
 }
 
-
-.description{
-     height: 10rem;
-     background-color: var(--color-dark);
-     font-size: 1rem;
-     line-height: 1.3rem;
-     padding: 1rem;
- }
- .description p{
-     padding-bottom: 0.5rem;
- }
-
- .btn2
-    {
-        width: max-content;
-        display: inline-block;
-        color: var(--color-bg);
-        padding: 0.1rem 0.7rem;
-        border-radius: 0.4rem;
-        cursor: pointer;
-        border: 1px solid var(--color-bg);
-        transition: var(--transition);
-        margin-right: 1rem;
-      }
-
-      .btn2:hover {
-        background: var(--color-primary);
-        color: var(--color-bg);
-        border-color: transparent;
-      }
-      
-    
- 
-      @media screen and (max-width:600px) {
-        #portfolio h2{
-            margin-bottom: 2rem;
-        }
-#carousel{
-    width: 100%;
-    margin: 0 auto;
+.btn2 {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-dark);
+  background: var(--color-bg);
+  padding: 0.1rem 0.7rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-right: 1rem;
 }
 
-.description{
-    height: 12rem;
-    
+.btn2:hover {
+  border: transparent;
+  background: var(--color-dark);
+  color: var(--color-bg);
 }
-          
-      }
+
+@media screen and (max-width: 800px) {
+  #portfolio h2 {
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  #container-carousel {
+    min-width: 100%;
+  }
+
+  .carousel .slide img {
+    padding: 0 0 2vh 0;
+  }
+
+  .carousel li.thumb {
+    display: none;
+  }
+  .carousel button {
+    display: none;
+  }
+
+  .description {
+    height: 13rem;
+  }
+  .description a {
+    margin-top: 1.3rem;
+  }
+}

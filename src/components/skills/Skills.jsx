@@ -10,7 +10,7 @@ import { FiFigma } from "react-icons/fi";
 const Skills = () => {
   return (
     <section id="skills">
-      <h5>Skills I Have</h5>
+      <h2>Mes compétences</h2>
       <div className="boxes-container">
         <div className="box">
           <div className="box-inner">
