@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.d2e85572.css",
-    "main.js": "/portfolio_react/static/js/main.85a8885b.js",
+    "main.css": "/portfolio_react/static/css/main.6c690fbb.css",
+    "main.js": "/portfolio_react/static/js/main.71b6c69a.js",
     "static/media/mix&drink.png": "/portfolio_react/static/media/mix&drink.3d6230de391afaa7e332.png",
     "static/media/mePict.png": "/portfolio_react/static/media/mePict.ea5796942966463362ed.png",
     "static/media/brasserie.png": "/portfolio_react/static/media/brasserie.ebefd5cb46503eee283a.png",
@@ -9,11 +9,11 @@
     "static/media/hackaton1.png": "/portfolio_react/static/media/hackaton1.2192c2961f86f319f687.png",
     "static/media/CV_Valerie_IELSCH.pdf": "/portfolio_react/static/media/CV_Valerie_IELSCH.6de18489e3ce2de29ede.pdf",
     "index.html": "/portfolio_react/index.html",
-    "main.d2e85572.css.map": "/portfolio_react/static/css/main.d2e85572.css.map",
-    "main.85a8885b.js.map": "/portfolio_react/static/js/main.85a8885b.js.map"
+    "main.6c690fbb.css.map": "/portfolio_react/static/css/main.6c690fbb.css.map",
+    "main.71b6c69a.js.map": "/portfolio_react/static/js/main.71b6c69a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d2e85572.css",
-    "static/js/main.85a8885b.js"
+    "static/css/main.6c690fbb.css",
+    "static/js/main.71b6c69a.js"
   ]
 }
