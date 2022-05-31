@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.d2e85572.css",
-    "main.js": "/portfolio_react/static/js/main.f5606b5c.js",
+    "main.js": "/portfolio_react/static/js/main.a569943e.js",
     "static/media/mix&drink.png": "/portfolio_react/static/media/mix&drink.3d6230de391afaa7e332.png",
     "static/media/mePict.png": "/portfolio_react/static/media/mePict.ea5796942966463362ed.png",
     "static/media/brasserie.png": "/portfolio_react/static/media/brasserie.ebefd5cb46503eee283a.png",
@@ -10,10 +10,10 @@
     "static/media/CV_Valerie_IELSCH.pdf": "/portfolio_react/static/media/CV_Valerie_IELSCH.d3eeaa075985acb7772e.pdf",
     "index.html": "/portfolio_react/index.html",
     "main.d2e85572.css.map": "/portfolio_react/static/css/main.d2e85572.css.map",
-    "main.f5606b5c.js.map": "/portfolio_react/static/js/main.f5606b5c.js.map"
+    "main.a569943e.js.map": "/portfolio_react/static/js/main.a569943e.js.map"
   },
   "entrypoints": [
     "static/css/main.d2e85572.css",
-    "static/js/main.f5606b5c.js"
+    "static/js/main.a569943e.js"
   ]
 }
