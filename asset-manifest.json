@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.65b23beb.css",
-    "main.js": "/portfolio_react/static/js/main.4c2ba73c.js",
+    "main.css": "/portfolio_react/static/css/main.d2e85572.css",
+    "main.js": "/portfolio_react/static/js/main.f5606b5c.js",
     "static/media/mix&drink.png": "/portfolio_react/static/media/mix&drink.3d6230de391afaa7e332.png",
     "static/media/mePict.png": "/portfolio_react/static/media/mePict.ea5796942966463362ed.png",
     "static/media/brasserie.png": "/portfolio_react/static/media/brasserie.ebefd5cb46503eee283a.png",
     "static/media/todolist.png": "/portfolio_react/static/media/todolist.414d7d1e4de6f7a715e2.png",
     "static/media/hackaton1.png": "/portfolio_react/static/media/hackaton1.2192c2961f86f319f687.png",
-    "static/media/asfalt--light--1920x1080.png": "/portfolio_react/static/media/asfalt--light--1920x1080.33c8cd53c14b2706f7d5.png",
     "static/media/CV_Valerie_IELSCH.pdf": "/portfolio_react/static/media/CV_Valerie_IELSCH.d3eeaa075985acb7772e.pdf",
     "index.html": "/portfolio_react/index.html",
-    "main.65b23beb.css.map": "/portfolio_react/static/css/main.65b23beb.css.map",
-    "main.4c2ba73c.js.map": "/portfolio_react/static/js/main.4c2ba73c.js.map"
+    "main.d2e85572.css.map": "/portfolio_react/static/css/main.d2e85572.css.map",
+    "main.f5606b5c.js.map": "/portfolio_react/static/js/main.f5606b5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.65b23beb.css",
-    "static/js/main.4c2ba73c.js"
+    "static/css/main.d2e85572.css",
+    "static/js/main.f5606b5c.js"
   ]
 }
