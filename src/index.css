@@ -67,30 +67,28 @@ a {
   transition: var(--transition);
 }
 
-a:hover {
-  color: var(--color-dark);
-}
 
 .btn {
   width: max-content;
   display: inline-block;
   color: var(--color-dark);
   padding: 0.75rem 1.2rem;
-  border-radius: 0.4rem;
+  border-radius: 0.6rem;
   cursor: pointer;
-  border: 1.5px solid var(--color-bg);
+  border: 1.5px solid var(--color-dark);
   transition: var(--transition);
 }
 
 .btn:hover {
-  background: var(--color-dark);
-  color: var(--color-bg);
+  background: var(--color-transparent-dark);
+  color: #d1efec;
   border-color: transparent;
 }
 
 .btn-primary {
   background: var(--color-bg);
   color: var(--color-dark);
+  border: none;
 }
 
 img {

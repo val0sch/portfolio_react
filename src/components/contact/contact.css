@@ -48,12 +48,17 @@ button {
   font-size: 1.3rem;
   padding: 1rem;
 }
+.socials a:hover{
+  font-size: 150%;
+  background-color: transparent;
+}
 
 @media screen and (min-width: 800px) {
   #contact h2 {
     padding-top: 4rem;
     padding-bottom: 4rem;
   }
+
   form {
     max-width: 50%;
   }

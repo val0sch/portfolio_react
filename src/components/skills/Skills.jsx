@@ -7,6 +7,7 @@ import { GrMysql } from "react-icons/gr";
 import { FaGithubAlt } from "react-icons/fa";
 import { SiNotion } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
+import { SiExpress } from "react-icons/si";
 const Skills = () => {
   return (
     <section id="skills">
@@ -48,7 +49,11 @@ const Skills = () => {
                   <FaNodeJs className="logo" /> <br />
                   Node Js
                 </li>
-                <li>Express</li>
+                <li>
+                  <SiExpress className="logo" />
+                  <br />
+                  Express
+                </li>
                 <li>
                   <GrMysql className="logo" /> <br />
                   MySql
