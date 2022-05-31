@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div id="container-carousel">
         <Carousel useKeyboardArrows>
           <div className="box-img-desc">
-            <img src={mixDrink} />
+            <img src={mixDrink} alt="project picture" />
             <div className="description">
               <p>
                 <strong>Mix and Drink</strong> Projet 2-{" "}
@@ -46,7 +46,7 @@ const Portfolio = () => {
           </div>
 
           <div className="image">
-            <img src={hackaton} />
+            <img src={hackaton} alt="project picture" />
             <div className="description">
               <p>
                 <strong>Hackathon n°1 </strong> : 36h -{" "}
@@ -73,7 +73,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="image">
-            <img src={todolist} />
+            <img src={todolist} alt="project picture" />
             <div className="description">
               <p>
                 <strong>To Do List</strong> <br />
@@ -100,7 +100,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="image">
-            <img src={brasserie} />
+            <img src={brasserie} alt="project picture" />
             <div className="description">
               <p>
                 <strong>Brasserie Outsiders</strong> Projet 1 -{" "}
