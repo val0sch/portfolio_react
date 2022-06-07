@@ -1,0 +1,29 @@
+#slider {
+  background: white;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo {
+  width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.icon-left {
+  left: 32px;
+}
