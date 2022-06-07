@@ -7,7 +7,7 @@ export const SliderData = [
   {
     image: mixDrink,
     title: "Mix and Drink",
-    sibtitle: "Projet 2 - Wild Code School",
+    subtitle: "Projet 2 - Wild Code School",
     description:
       "API cocktailDB et librairie REACT - barre de recherche, bouton Random et lien vers les cocktails populaires",
     url: "https://github.com/val0sch/MixAndDrink_Projet2",
@@ -16,7 +16,7 @@ export const SliderData = [
   {
     image: hackaton,
     title: "One, Two, Three, Viva l'écologie",
-    sibtitle: "Wild Code School",
+    subtitle: "Wild Code School",
     description:
       "Site sur le thème de l'économie circulaire - Consommer une API avec REACT",
     url: "https://val0sch.github.io/hackaton1/",
@@ -25,7 +25,7 @@ export const SliderData = [
   {
     image: todolist,
     title: "To Do List",
-    sibtitle: "Librairie REACT",
+    subtitle: "Librairie REACT",
     description: "Utilisation des Hooks (useState, useEffect)",
     url: "https://val0sch.github.io/To-Do-List/",
     repo: "https://github.com/val0sch/To-Do-List",
@@ -33,7 +33,7 @@ export const SliderData = [
   {
     image: brasserie,
     title: "Brasserie Outsiders",
-    sibtitle: "Projet 1 - Wild Code School",
+    subtitle: "Projet 1 - Wild Code School",
     description: "Site vitrine d'un restaurant fictif avec HTML et CSS",
     url: "https://val0sch.github.io/projetOutsidersBrasserie/",
     repo: "https://github.com/val0sch/projetOutsidersBrasserie",

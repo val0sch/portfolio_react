@@ -6,17 +6,25 @@
   justify-content: center;
   align-items: center;
 }
+div #carousel {
+  margin: 0 auto;
+}
 
 .photo {
-  width: 1000px;
-  height: 600px;
   border-radius: 10px;
+  max-width: 50%;
+  margin: auto;
+}
+.content {
+  text-align: center;
+  font-size: clamp(8px, 2vw, 15px);
+  padding: 1rem 25rem;
 }
 
 .icons {
   position: absolute;
   top: 50%;
-  right: 32px;
+  right: 10%;
   font-size: 3rem;
   color: black;
   z-index: 10;
@@ -25,5 +33,5 @@
 }
 
 .icon-left {
-  left: 32px;
+  left: 10%;
 }
