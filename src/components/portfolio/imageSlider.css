@@ -35,3 +35,14 @@ div #carousel {
 .icon-left {
   left: 10%;
 }
+
+.slide {
+  opacity: 0.3;
+  transition-duration: 1s;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 2s;
+  transform: scale(1.01);
+}
