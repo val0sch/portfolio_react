@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio_react/static/css/main.f2df5978.css",
-    "main.js": "/portfolio_react/static/js/main.9c10d3d6.js",
+    "main.css": "/portfolio_react/static/css/main.6491e026.css",
+    "main.js": "/portfolio_react/static/js/main.220c119c.js",
     "static/media/mix&drink.png": "/portfolio_react/static/media/mix&drink.3d6230de391afaa7e332.png",
+    "static/media/giveday.png": "/portfolio_react/static/media/giveday.afc0946506e7f50f17b4.png",
     "static/media/mePict.png": "/portfolio_react/static/media/mePict.ea5796942966463362ed.png",
     "static/media/brasserie.png": "/portfolio_react/static/media/brasserie.ebefd5cb46503eee283a.png",
     "static/media/todolist.png": "/portfolio_react/static/media/todolist.414d7d1e4de6f7a715e2.png",
     "static/media/hackaton1.png": "/portfolio_react/static/media/hackaton1.2192c2961f86f319f687.png",
+    "static/media/hackathon2.png": "/portfolio_react/static/media/hackathon2.0db881abbac86d786f0e.png",
     "static/media/cv_valerie_ielsch.pdf": "/portfolio_react/static/media/cv_valerie_ielsch.eca88632c523e0f13b1b.pdf",
     "index.html": "/portfolio_react/index.html",
-    "main.f2df5978.css.map": "/portfolio_react/static/css/main.f2df5978.css.map",
-    "main.9c10d3d6.js.map": "/portfolio_react/static/js/main.9c10d3d6.js.map"
+    "main.6491e026.css.map": "/portfolio_react/static/css/main.6491e026.css.map",
+    "main.220c119c.js.map": "/portfolio_react/static/js/main.220c119c.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2df5978.css",
-    "static/js/main.9c10d3d6.js"
+    "static/css/main.6491e026.css",
+    "static/js/main.220c119c.js"
   ]
 }
