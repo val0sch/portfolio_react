@@ -37,12 +37,31 @@ div #carousel {
 }
 
 .slide {
-  opacity: 0.3;
+  opacity: 0.6;
   transition-duration: 1s;
 }
 
 .slide.active {
   opacity: 1;
-  transition-duration: 2s;
-  transform: scale(1.01);
+  transition-duration: 1s;
+  transform: scale(1);
+}
+
+#carousel p {
+  margin: 1rem;
+}
+#carousel a {
+  padding: 0.15rem 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: var(--color-transparent-dark);
+  color: var(--color-bg-light);
+  margin: 0.5rem;
+}
+
+#carousel a:hover {
+  transition: var(--transition);
+  background-color: transparent;
+  border: 1px solid rgb(46, 46, 46);
+  color: var(--color-dark);
 }

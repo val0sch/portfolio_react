@@ -25,7 +25,7 @@ const Nav = () => {
         <CgUserlane />
       </a>
       <a
-        href="#portfolio"
+        href="#slider"
         onClick={() => setActiveNav("#portfolio")}
         className={activeNav === "#portfolio" ? "active" : ""}
       >
