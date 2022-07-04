@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_react/static/css/main.6491e026.css",
-    "main.js": "/portfolio_react/static/js/main.220c119c.js",
+    "main.js": "/portfolio_react/static/js/main.f370b841.js",
     "static/media/mix&drink.png": "/portfolio_react/static/media/mix&drink.3d6230de391afaa7e332.png",
     "static/media/giveday.png": "/portfolio_react/static/media/giveday.afc0946506e7f50f17b4.png",
     "static/media/mePict.png": "/portfolio_react/static/media/mePict.ea5796942966463362ed.png",
@@ -12,10 +12,10 @@
     "static/media/cv_valerie_ielsch.pdf": "/portfolio_react/static/media/cv_valerie_ielsch.eca88632c523e0f13b1b.pdf",
     "index.html": "/portfolio_react/index.html",
     "main.6491e026.css.map": "/portfolio_react/static/css/main.6491e026.css.map",
-    "main.220c119c.js.map": "/portfolio_react/static/js/main.220c119c.js.map"
+    "main.f370b841.js.map": "/portfolio_react/static/js/main.f370b841.js.map"
   },
   "entrypoints": [
     "static/css/main.6491e026.css",
-    "static/js/main.220c119c.js"
+    "static/js/main.f370b841.js"
   ]
 }
