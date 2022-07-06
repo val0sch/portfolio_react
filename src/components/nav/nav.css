@@ -1,0 +1,44 @@
+nav {
+  background: var(--color-transparent-dark);
+  padding: 0.7rem 1.4rem;
+  z-index: 2;
+  position: fixed;
+  top: 0rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  border-radius: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav a {
+  font-size: 1.5rem;
+  color: var(--color-bg-light);
+
+  padding: 0.5rem 0.5rem 0.1rem 0.5rem;
+}
+
+
+nav a.active, a:hover {
+  background-color: rgba(29, 27, 27, 0.639);
+  border-radius: 0.6rem;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+
+    left: 50%;
+    top: 0px;
+    transform: translateX(-50%);
+    background-color: rgb(57, 56, 56);
+  }
+
+  nav a.active , a:hover{
+    background-color: var(--color-bg-light);
+    color: var(--color-dark);
+  }
+}

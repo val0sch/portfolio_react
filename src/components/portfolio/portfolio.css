@@ -1,0 +1,89 @@
+/* #portfolio {
+  padding-top: 1rem;
+  background-color: var(--color-bg-light);
+}
+
+#portfolio h2 {
+  margin-bottom: 1rem;
+}
+#container-carousel {
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+}
+.carousel-status {
+  display: none;
+}
+
+.description {
+  height: 11rem;
+  line-height: 1.6rem;
+  color: var(--color-bg-light);
+}
+.description a {
+  margin-top: 0.8rem;
+}
+.carousel button:nth-child(3) {
+  display: none;
+}
+.carousel button:nth-child(1) {
+  display: none;
+}
+.carousel .slide {
+  justify-content: center;
+  background-color: var(--color-transparent-dark);
+}
+.carousel .slide img {
+  padding-bottom: 1vh;
+}
+
+.btn2 {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-dark);
+  background: var(--color-bg);
+  padding: 0.1rem 0.7rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: var(--transition);
+  margin-right: 1rem;
+}
+
+.btn2:hover {
+  border: transparent;
+  background: var(--color-dark);
+  color: var(--color-bg);
+}
+
+@media screen and (max-width: 800px) {
+  #portfolio h2 {
+    padding-top: 5rem;
+    margin-bottom: 2rem;
+  }
+
+  #container-carousel {
+    min-width: 100%;
+  }
+
+  .carousel .slide img {
+    padding: 0 0 2vh 0;
+  }
+
+  .carousel li.thumb {
+    display: none;
+  }
+  .carousel button {
+    display: none;
+  }
+
+  .description {
+    height: 13rem;
+  }
+  .description a {
+    margin-top: 1.3rem;
+  }
+} */

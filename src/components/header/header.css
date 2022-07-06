@@ -1,0 +1,70 @@
+header {
+  height: 100vh;
+  padding-top: 4rem;
+  overflow: hidden;
+  /* background-image: url("../../assets/asfalt--light--1920x1080.png"); */
+}
+
+.header__container {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+}
+
+.cta {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.me {
+  background: var(--color-bg);
+  box-shadow: 20px 20px 60px #a6bebc, -20px -20px 60px #e0fffe;
+  width: 20rem;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 4rem;
+  border-radius: 20rem 20em 0 0;
+  overflow: hidden;
+}
+
+.scroll__down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 21rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ======= MEDIA QUERIES FOR MEDIUM DEVICES ======== */
+@media screen and (max-width: 1042px) {
+  .me {
+    width: 20rem;
+    height: auto;
+  }
+  .scroll__down {
+    margin-right: 5rem;
+  }
+
+  .header__socials {
+    margin-left: 5rem;
+  }
+}
+
+/* ======= MEDIA QUERIES FOR SMALL DEVICES ======== */
+
+@media screen and (max-width: 600px) {
+  .header__container:first-child {
+    margin-top: 3rem;
+  }
+  .me {
+    width: 15rem;
+    height: auto;
+  }
+  .header__socials,
+  .scroll__down {
+    display: none;
+  }
+}

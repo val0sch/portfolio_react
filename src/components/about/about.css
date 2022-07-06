@@ -1,0 +1,18 @@
+.text {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2rem;
+}
+#about {
+  background: var(--color-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+  .text {
+    width: 95%;
+  }
+}
