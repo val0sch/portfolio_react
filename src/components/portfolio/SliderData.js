@@ -47,7 +47,7 @@ export const SliderData = [
     title: "To Do List",
     subtitle: "Librairie REACT",
     description: "Utilisation des Hooks (useState, useEffect)",
-    url: "https://val0sch.github.io/To-Do-List/",
+    url: "https://to-do-list-valerie.netlify.app/",
     repo: "https://github.com/val0sch/To-Do-List",
   },
   {
@@ -55,7 +55,7 @@ export const SliderData = [
     title: "Brasserie Outsiders",
     subtitle: "Projet 1 - Wild Code School",
     description: "Site vitrine d'un restaurant fictif avec HTML et CSS",
-    url: "https://val0sch.github.io/projetOutsidersBrasserie/",
+    url: "https://outsiders-restaurant.netlify.app/",
     repo: "https://github.com/val0sch/projetOutsidersBrasserie",
   },
 ];
