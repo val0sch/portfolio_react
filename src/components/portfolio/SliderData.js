@@ -13,7 +13,7 @@ export const SliderData = [
     description:
       "Prototypage d’une application web ayant pour but d’optimiser l’organisation d’évènements pour enfants. Atelier en ligne de création de carte d’anniversaire et accès à une cagnotte pour les invités. Création d'un blog géré côté administrateur.",
     url: "https://giveday.remote-fr-3.wilders.dev/",
-    repo: "https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-GiveDay",
+    repo: "https://github.com/WildCodeSchool/2022-03-JS-RemoteFR-Outsiders-P3-GiveDay/tree/dev",
   },
   {
     image: hackathon2,
@@ -21,8 +21,8 @@ export const SliderData = [
     subtitle: "Hackathon #2 - Wild Code School",
     description:
       "Proposition d'outils de partage de projets - Frontend et Backend",
-    url: "https://github.com/val0sch/Hackathon2-Apside",
-    repo: "https://github.com/val0sch/Hackathon2-Apside",
+    url: "https://github.com/val0sch/Hackathon2-Apside/tree/dev",
+    repo: "https://github.com/val0sch/Hackathon2-Apside/tree/dev",
   },
   {
     image: mixDrink,
@@ -40,7 +40,7 @@ export const SliderData = [
     description:
       "Site sur le thème de l'économie circulaire - Consommer une API avec REACT",
     url: "https://val0sch.github.io/hackaton1/",
-    repo: "https://github.com/val0sch/hackaton1",
+    repo: "https://github.com/val0sch/hackaton1/tree/dev",
   },
   {
     image: todolist,
