@@ -12,31 +12,34 @@ const Contact = () => {
         <div className="socials">
           <ul>
             <li>
-              <a
+              <button
+                className="keyboard"
                 href="mailto:valerie.ielsch@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
                 <MdAlternateEmail size={30} /> Email
-              </a>
+              </button>
             </li>
             <li>
-              <a
+              <button
+                className="keyboard"
                 href="https://www.linkedin.com/in/valerie-ielsch/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <BsLinkedin size={30} /> LinkedIn
-              </a>
+              </button>
             </li>
             <li>
-              <a
+              <button
+                className="keyboard"
                 href="https://github.com/val0sch"
                 target="_blank"
                 rel="noreferrer"
               >
                 <BsGithub size={30} /> Github
-              </a>
+              </button>
             </li>
           </ul>
         </div>
