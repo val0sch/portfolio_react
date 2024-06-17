@@ -2,7 +2,6 @@ import "./nav.css";
 import { AiFillHome } from "react-icons/ai";
 import { CgUserlane } from "react-icons/cg";
 import { BsFillGearFill } from "react-icons/bs";
-import { TbMessageDots } from "react-icons/tb";
 import { Link } from "react-scroll";
 import { IoSend } from "react-icons/io5";
 
