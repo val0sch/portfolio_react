@@ -1,78 +1,54 @@
 import React from "react";
 import "./contact.css";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
-import Swal from "sweetalert2";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
+import { MdAlternateEmail } from "react-icons/md";
+import { Element } from "react-scroll";
 
 const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    Swal.fire({
-      title: "Merci pour votre mail",
-      text: "Je vous réponds au plus vite!",
-      icon: "success",
-      showConfirmButton: false,
-      timer: 1800,
-    });
-
-    emailjs
-      .sendForm(
-        "service_tfg2zej",
-        "template_h53t3ax",
-        form.current,
-        "5NZVBYk7GV2tzzM0L"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    e.target.reset();
-  };
-
   return (
-    <section id="contact">
-      <h2>Prenez contact avec moi!</h2>
-
-      <form ref={form} onSubmit={sendEmail}>
-        <input type="text" name="name" placeholder="Nom et prénom" required />
-        <input type="email" name="email" placeholder="adresse mail" required />
-        <textarea
-          type="message"
-          row="7"
-          name="message"
-          placeholder="Votre message"
-          required
-        />
-        <button type="submit" className="btn btn-primary">
-          Envoyer
-        </button>
-      </form>
-
-      <div id="footer">
-        <p>©Copyright 2022 / Valérie Ielsch </p>
-        <div className="socials">
-          <a
-            href="https://www.linkedin.com/in/valerie-ielsch/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsLinkedin /> LinkedIn
-          </a>
-          <a href="https://github.com/val0sch" target="_blank" rel="noreferrer">
-            <BsGithub /> Github
-          </a>{" "}
+    <Element name="contact">
+      <section id="contact">
+        <div className="contactContainer">
+          <h2>Contact</h2>
+          <div className="socials">
+            <ul>
+              <li>
+                <a
+                  href="mailto:valerie.ielsch@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <MdAlternateEmail size={30} /> Email
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/valerie-ielsch/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsLinkedin size={30} /> LinkedIn
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/val0sch"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <BsGithub size={30} /> Github
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </section>
+
+        <div id="footer">
+          <p>©Copyright 2024 / Valérie Ielsch </p>
+        </div>
+      </section>
+    </Element>
   );
 };
 

@@ -1,52 +1,69 @@
-import React, { useState } from "react";
 import "./nav.css";
 import { AiFillHome } from "react-icons/ai";
 import { CgUserlane } from "react-icons/cg";
-import { RiFolder5Fill } from "react-icons/ri";
 import { BsFillGearFill } from "react-icons/bs";
-import { SiGooglemessages } from "react-icons/si";
+import { TbMessageDots } from "react-icons/tb";
+import { Link } from "react-scroll";
+import { IoSend } from "react-icons/io5";
+
+import React from "react";
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
   return (
-    <nav>
-      <a
-        href="/#"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiFillHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <CgUserlane />
-      </a>
-      <a
-        href="#slider"
-        onClick={() => setActiveNav("#portfolio")}
-        className={activeNav === "#portfolio" ? "active" : ""}
-      >
-        <RiFolder5Fill />
-      </a>
-      <a
-        href="#skills"
-        onClick={() => setActiveNav("#skills")}
-        className={activeNav === "#skills" ? "active" : ""}
-      >
-        <BsFillGearFill />
-      </a>
-
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <SiGooglemessages />
-      </a>
-    </nav>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <Link
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              duration={50}
+              to="home"
+              className="icon"
+            >
+              <AiFillHome size={30} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              duration={50}
+              to="about"
+              className="icon"
+            >
+              <CgUserlane size={30} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              duration={50}
+              to="skills"
+              className="icon"
+            >
+              <BsFillGearFill size={28} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              smooth={true}
+              duration={50}
+              spy={true}
+              to="contact"
+              className="icon"
+            >
+              <IoSend size={26} />
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

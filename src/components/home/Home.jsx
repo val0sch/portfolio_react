@@ -1,12 +1,12 @@
 import React from "react";
-import "./header.css";
+import "./home.css";
 import CTA from "./CTA.jsx";
 import ME from "../../assets/mePict.png";
 
-const Header = () => {
+const Home = () => {
   return (
-    <header>
-      <div className="container header__container">
+    <section id="home">
+      <div className="container home_container">
         <h5>Bonjour, je suis</h5>
         <h1>Valérie IELSCH</h1>
         <h5>Développeuse Fullstack</h5>
@@ -14,12 +14,9 @@ const Header = () => {
         <div className="me">
           <img src={ME} alt="Valerie"></img>
         </div>
-        <a href="#contact" className="scroll__down">
-          Scroll Down
-        </a>
-      </div>{" "}
-    </header>
+      </div>
+    </section>
   );
 };
 
-export default Header;
+export default Home;

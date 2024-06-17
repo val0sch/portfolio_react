@@ -20,7 +20,7 @@ const About = () => {
         Ici, vous pourrez jeter un oeil à mon CV, Github et à mes projets.
         <br />
         J'espère que cela vous donnera envie de me contacter.
-        <br />A bientôt :)
+        <br />A bientôt !
       </div>
     </section>
   );
