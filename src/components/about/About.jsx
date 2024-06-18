@@ -40,7 +40,6 @@ const About = () => {
                     duration: 0.4,
                     delay: i / 17,
                   }}
-                  // style={{ display: word === " " ? "inline" : "inline-block" }}
                 >
                   {word}
                 </motion.span>

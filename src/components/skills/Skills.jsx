@@ -1,81 +1,90 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./skills.css";
-import { SiJavascript } from "react-icons/si";
-import { SiReact } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { GrMysql } from "react-icons/gr";
-import { FaGithubAlt } from "react-icons/fa";
-import { SiNotion } from "react-icons/si";
-import { FiFigma } from "react-icons/fi";
-import { SiExpress } from "react-icons/si";
+import { motion, useAnimation, useInView } from "framer-motion";
 const Skills = () => {
+  const softSkills = [
+    "Curiosité",
+    "Patience",
+    "Tenacité",
+    "Créativité",
+    "Communication",
+    "Autonomie",
+  ];
+  const hardSkills = [
+    "Javascript",
+    "React JS",
+    "Node JS",
+    "MySQL",
+    "GitHub",
+    "Notion",
+    "Figma",
+    "Express",
+  ];
+
+  const ref = useRef(null);
+  const isInView = useInView(ref);
+
+  const controls = useAnimation();
+
+  useEffect(() => {
+    if (isInView) {
+      controls.start("visible");
+    } else {
+      controls.start("hidden");
+    }
+  }, [isInView, controls]);
+
+  const container = {
+    hidden: { opacity: 1, scale: 0 },
+    visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+        delayChildren: 0.3,
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const item = {
+    hidden: { x: 30, opacity: 0 },
+    visible: {
+      x: 0,
+      opacity: 1,
+    },
+  };
   return (
     <section id="skills">
-      <h2>Mes compétences</h2>
-      <div className="boxes-container">
-        <div className="box">
-          <div className="box-inner">
-            <div className="box-front">
-              <h2>Soft Skills</h2>
-            </div>
-            <div className="box-back">
-              <ul className="list">
-                <li>Curiosité</li>
-                <li>Patience</li>
-                <li>Tenacité</li>
-                <li>Créativité</li>
-                <li>Communication</li>
-                <li>Autonomie</li>
-              </ul>
-            </div>
-          </div>
+      <div className="skillsContainer" ref={ref}>
+        <div className="softSkills">
+          <h2>Soft Skills</h2>
+          <motion.ul
+            className="container"
+            variants={container}
+            initial={"hidden"}
+            animate={controls}
+          >
+            {softSkills.map((skill, index) => (
+              <motion.li key={index} className="item" variants={item}>
+                {skill}
+              </motion.li>
+            ))}
+          </motion.ul>
         </div>
-        <div className="box">
-          <div className="box-inner">
-            <div className="box-front">
-              <h2>Hard Skills</h2>
-            </div>
-            <div className="box-back">
-              <ul className="list">
-                <li>
-                  <SiJavascript className="logo" /> <br />
-                  Javacript
-                </li>
-                <li>
-                  <SiReact className="logo" /> <br />
-                  React JS
-                </li>
-                <li>
-                  <FaNodeJs className="logo" /> <br />
-                  Node Js
-                </li>
-                <li>
-                  <SiExpress className="logo" />
-                  <br />
-                  Express
-                </li>
-                <li>
-                  <GrMysql className="logo" /> <br />
-                  MySql
-                </li>
-                <li>
-                  <FaGithubAlt className="logo" />
-                  <br />
-                  Git/Github
-                </li>
-                <li>
-                  <SiNotion className="logo" />
-                  <br />
-                  Notion
-                </li>
-                <li>
-                  <FiFigma className="logo" />
-                  <br />
-                  Figma
-                </li>
-              </ul>
-            </div>
-          </div>
+        <div className="hardSkills">
+          <h2>Hard Skills</h2>
+          <motion.ul
+            className="container"
+            variants={container}
+            initial="hidden"
+            animate={controls}
+          >
+            {hardSkills.map((skill, index) => (
+              <motion.li key={index} className="item" variants={item}>
+                {skill}
+              </motion.li>
+            ))}
+          </motion.ul>
         </div>
       </div>
     </section>

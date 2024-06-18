@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 .projectsContainer > ul {
   overflow: scroll;
@@ -31,9 +32,10 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
-}
-
-#projects > div > ul > li {
+  }
+  
+  #projects > div > ul > li {
+  
   background-color: var(--color-transparent-dark);
   width: 20%;
   padding: 1rem;
