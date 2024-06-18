@@ -61,7 +61,7 @@ export const SliderData = [
   },
   {
     images: [hackathon2],
-    title: "Hackathon pour Apside",
+    title: "Hackathon Apside",
     subtitle: "Hackathon #2 - Wild Code School",
     description:
       "Proposition d'outils de partage de projets - Frontend et Backend",
@@ -79,7 +79,7 @@ export const SliderData = [
   },
   {
     images: [hackaton],
-    title: "Hackathon : écologie",
+    title: "Hackathon Ecologie",
     subtitle: "Hackathon #1 - Wild Code School",
     description:
       "Site sur le thème de l'économie circulaire - Consommer une API avec REACT",

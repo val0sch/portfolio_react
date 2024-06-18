@@ -21,6 +21,10 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+
+  overflow-y: scroll;
+  scrollbar-color: var(--color-transparent-dark) transparent;
+  scrollbar-width: thin;
 }
 .projectsContainer > ul {
   overflow: scroll;
@@ -100,13 +104,21 @@
     height: 16%;
     width: 25%;
     text-align: center;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-
+  #projects > h2 {
+    margin: 0;
+  }
   .popup {
     width: 60%;
   }
+
   .imagesBox > img {
     width: 100%;
+  }
+  .projectsContainer {
+    margin-top: 3rem;
   }
 }
