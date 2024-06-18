@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./portfolio.css";
 import { motion, AnimatePresence } from "framer-motion";
+import { IoIosCloseCircle } from "react-icons/io";
 
 import { SliderData } from "./SliderData";
 
@@ -26,6 +27,7 @@ const Portfolio = () => {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
+      cursor: "pointer",
       opacity: 1,
     },
   };
@@ -34,10 +36,6 @@ const Portfolio = () => {
   const variants = {
     visible: {
       scale: 1.1,
-      boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
-      y: -50,
-      x: -100,
-      cursor: "pointer",
       transition: { duration: 1, type: "spring" },
     },
     hidden: { scale: 1, opacity: 0 },
@@ -45,49 +43,77 @@ const Portfolio = () => {
 
   return (
     <section id="projects">
-      <motion.ul
-        style={{
-          filter: show ? "blur(1px)" : "none",
-        }}
-        className="row d-flex   justify-content-center align-items-center"
-        variants={container}
-        initial="hidden"
-        animate="visible"
-      >
-        {SliderData.map((projectData) => (
-          <motion.li
-            layoutId={projectData.id}
-            onClick={() => {
-              setShow(!show);
-              setinfo(projectData);
-            }}
-          >
-            <motion.div>
-              <motion.h2>{projectData.title}</motion.h2>
-            </motion.div>
-          </motion.li>
-        ))}
-      </motion.ul>
+      <h2>Projets</h2>
+      <div className="projectsContainer">
+        <motion.ul
+          style={{
+            filter: show ? "blur(3px)" : "none",
+          }}
+          variants={container}
+          initial="hidden"
+          animate="visible"
+        >
+          {SliderData.map((projectData) => (
+            <>
+              <motion.li
+                layout
+                onClick={() => {
+                  setShow(!show);
+                  setinfo(projectData);
+                }}
+                variants={item}
+              >
+                <motion.h2>{projectData.title}</motion.h2>
+                <motion.img
+                  src={projectData.images[0]}
+                  alt="website project image"
+                ></motion.img>
+              </motion.li>
+            </>
+          ))}
+        </motion.ul>
+      </div>
       <AnimatePresence>
         {show && (
           <>
             <motion.div
-              className="card "
-              style={{
-                position: "fixed",
-                top: "30%",
-                left: "40%",
-              }}
-              onClick={() => {
-                setShow(!show);
-              }}
+              className="popup"
               variants={variants}
               animate={show ? "visible" : "hidden"}
               exit={{ scale: 1, opacity: 0 }}
             >
-              <img src={info.img} className="img-fluid" alt="" srcset="" />
-              <h1 className="card-title"> {info.name}</h1>
-              <p className="card-text">{info.dec}</p>
+              <IoIosCloseCircle
+                size={25}
+                onClick={() => {
+                  setShow(!show);
+                }}
+                className="closeIcon"
+              />
+
+              <div className="imagesBox">
+                {info.images.map((image) => (
+                  <img src={image} alt="website project zoom" srcset="" />
+                ))}
+              </div>
+
+              <h1> {info.title}</h1>
+              <p>{info.description}</p>
+              {info.url !== null && (
+                <a href={info.url} target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary">Site web</button>
+                </a>
+              )}
+              {info.repo !== null && (
+                <a href={info.repo} target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary">Github</button>
+                </a>
+              )}
+
+              {info.repo2 && (
+                <a href={info.repo2} target="_blank" rel="noopener noreferrer">
+                  <button className="btn btn-primary">Github 2</button>
+                </a>
+              )}
             </motion.div>
           </>
         )}

@@ -21,8 +21,8 @@ const About = () => {
 
   return (
     <section id="about">
+      <h2>En quelques mots ...</h2>
       <div className="text" ref={ref}>
-        <h2>En quelques mots ...</h2>
         <p>
           {words.map((word, i) => (
             <React.Fragment key={i}>
