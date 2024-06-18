@@ -26,7 +26,7 @@ const Skills = () => {
     "Patience",
     "Tenacité",
     "Créativité",
-    "Communication",
+    "Esprit d'équipe",
     "Autonomie",
   ];
   const hardSkills = [

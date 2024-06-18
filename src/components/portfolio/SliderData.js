@@ -43,6 +43,14 @@ export const SliderData = [
     repo2: "https://github.com/val0sch/WildRent-mobile",
   },
   {
+    images: null,
+    title: "Secret Cellar",
+    subtitle: "Wild Code School",
+    description: "PHP et Symfony",
+    url: null,
+    repo: "https://github.com/val0sch/secret_cellar_symfony",
+  },
+  {
     images: [giveday],
     title: "Giveday",
     subtitle: "Projet client - Wild Code School",
