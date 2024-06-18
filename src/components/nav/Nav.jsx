@@ -4,6 +4,7 @@ import { CgUserlane } from "react-icons/cg";
 import { BsFillGearFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 import { IoSend } from "react-icons/io5";
+import { IoFolder } from "react-icons/io5";
 
 import React from "react";
 
@@ -19,7 +20,6 @@ const Nav = () => {
               spy={true}
               duration={50}
               to="home"
-              className="icon"
             >
               <AiFillHome size={30} />
             </Link>
@@ -31,7 +31,6 @@ const Nav = () => {
               spy={true}
               duration={50}
               to="about"
-              className="icon"
             >
               <CgUserlane size={30} />
             </Link>
@@ -42,10 +41,20 @@ const Nav = () => {
               smooth={true}
               spy={true}
               duration={50}
-              to="skills"
-              className="icon"
+              to="projects"
             >
-              <BsFillGearFill size={28} />
+              <IoFolder size={30} />
+            </Link>
+          </li>
+          <li>
+            <Link
+              activeClass="active"
+              smooth={true}
+              spy={true}
+              duration={50}
+              to="skills"
+            >
+              <BsFillGearFill size={30} />
             </Link>
           </li>
           <li>
@@ -55,9 +64,8 @@ const Nav = () => {
               duration={50}
               spy={true}
               to="contact"
-              className="icon"
             >
-              <IoSend size={26} />
+              <IoSend size={30} />
             </Link>
           </li>
         </ul>

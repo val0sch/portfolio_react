@@ -19,6 +19,8 @@
   --container-width-ms: 90 %;
 
   --transition: all 400ms ease;
+
+  --nav-height: 3em;
 }
 html {
   scroll-behavior: smooth;
@@ -105,14 +107,16 @@ img {
 
 /* ======= MEDIA QUERIES FOR SMALL DEVICES ======== */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .container {
     width: var(--container-width-sm);
   }
 
   section {
-    padding-top: 5.5rem;
+    justify-content: flex-start;
+    padding-top: calc(var(--nav-height) + 3em);
   }
+
   section > h2 {
     margin-bottom: 2rem;
   }

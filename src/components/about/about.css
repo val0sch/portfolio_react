@@ -1,20 +1,33 @@
 .text {
   width: 60%;
   margin: 0 auto;
-  text-align: center;
+  text-align: start;
   line-height: 2rem;
 }
+
+.text > h2 {
+  font-weight: bold;
+  color: var(--color-dark);
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.text > p {
+  display: inline-block;
+}
+
 #about {
   background: var(--color-bg);
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-
 }
 
 @media screen and (max-width: 800px) {
   .text {
-    width: 95%;
+    width: 80%;
+  }
+
+  .text > h2 {
+    font-size: 1.5em;
   }
 }
