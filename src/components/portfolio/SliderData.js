@@ -45,7 +45,7 @@ export const SliderData = [
     title: "Sticky Note",
     subtitle: "Projet perso",
     description:
-      "React, prisma, toggle theme, authentification, in progress drag and drop",
+      'WORK IN PROGRESS - application Vite+React, Tailwind, Api Express, ORM Prisma. Site de "to do list" avec design de post-it, mise en place de drag-and drop, toggle theme, authentification de l\'utilisateur, possibilité de sauvegarder ses notes ou de les archiver.',
     url: "https://todoos.up.railway.app/",
     repo: "https://github.com/val0sch/todo-client",
     repo2: "https://github.com/val0sch/todo-server",
@@ -65,7 +65,8 @@ export const SliderData = [
     imagesPortrait: [GDE2, GDE4, GDE6, GDE7, GDE8, GDE10, GDE11, GDE13, GDE17],
     title: "Gestion des émotions",
     subtitle: "Entreprise Tricky",
-    description: "React redux web socket , jeu interactif sur tv tablettes",
+    description:
+      "Jeu multi-tablettes + 1 écran de TV inclu dans une formation prévention santé sur la gestion des émotions. Spécifications Techniques : Vite+React, Typescript, gestion d'un store avec Redux, interactions fluides et instantannée entre les appareils grace aux web socket, animations avec Framer Motion.",
     url: null,
     repo: null,
   },
@@ -74,7 +75,8 @@ export const SliderData = [
     imagesPortrait: [TMS2, TMS3, TMS4, TMS6, TMS7],
     title: "TMS",
     subtitle: "Troubles musculo-squelettiques - Entreprise Tricky",
-    description: "React redux web socket , jeu interactif sur tv tablettes",
+    description:
+      "Jeu multi-tablettes + 1 écran de TV inclu dans une formation prévention santé sur les troubles Musculo-squelettiques. Spécifications Techniques : Vite+React, Typescript, gestion d'un store avec Redux, interactions fluides et instantannée entre les appareils grace aux web socket, animations avec Framer Motion.",
     url: null,
     repo: null,
   },
@@ -93,7 +95,7 @@ export const SliderData = [
     title: "WildRent",
     subtitle: "Wild Code School",
     description:
-      "Projet d'école, prototypage maquettage , techno graphql docker , vps, react native",
+      "Projet de formation. Objectif MVP site de location de matériel sportif. Maquettage de l'application, création d'une application web et d'une application mobile. Conteneurisation avec Docker, mise en place d'un VPS, reverse-proxy et certificat TLS avec Caddy, intégration continue et déploiement continu avec Github Actions et webhooks, tests. Spécifications techniques: Vite+React, Typescript, Express, React Native, Docker, GraphQL, Suite Apollo.",
     url: null,
     repo: "https://github.com/val0sch/WildRent-desktop",
     repo2: "https://github.com/val0sch/WildRent-mobile",
@@ -102,7 +104,8 @@ export const SliderData = [
     imagesLandscape: null,
     title: "Secret Cellar",
     subtitle: "Wild Code School",
-    description: "PHP et Symfony",
+    description:
+      "Application web de gestion de cave personnelle. Spécifications techniques: PHP, Symfony, Bootstrap, Twig.",
     url: null,
     repo: "https://github.com/val0sch/secret_cellar_symfony",
   },
@@ -148,7 +151,7 @@ export const SliderData = [
     title: "Brasserie Outsiders",
     subtitle: "Wild Code School",
     description:
-      "Premier projet de formation.Site vitrine d'un restaurant fictif en HTML et CSS. J'ai réalisé la page \"Notre équipe\"",
+      "Premier projet de formation. Site vitrine d'un restaurant fictif en HTML et CSS. J'ai réalisé la page \"Notre équipe\"",
     url: "https://outsiders-restaurant.netlify.app/",
     repo: "https://github.com/val0sch/projetOutsidersBrasserie",
   },
