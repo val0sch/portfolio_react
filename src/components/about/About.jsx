@@ -3,7 +3,7 @@ import "./about.css";
 import { motion, useInView, useAnimation } from "framer-motion";
 
 const text =
-  "Je glisse un orteil dans le bassin du développement Web via une initiation openClassRoom et me voilà mouillée jusqu'au cou en formation 5 mois à la Wild Code School. Je bois parfois la tasse mais je ne coule pas. Cette formation est intensive mais renforce ma persévérance. On aborde une belle dose de concepts, et on se serre les coudes. La Wild c'est aussi un accès à une formation professionnelle qui nous permet de réaliser notre dernier projet avec un client réel.<br />Cette aventure se termine bientôt, et avant le grand plongeon, j'aimerais poursuivre mon apprentissage via un contrat d'alternance dans une entreprise.";
+  "Avec une année d'expérience chez Tricky, j'ai acquis une solide expertise dans le développement d’applications front-end avec React. En parallèle, ma formation à la Wild Code School m'a permis de développer des compétences en DevOps et en backend, renforçant ainsi ma polyvalence technique. Mon parcours a confirmé mon intérêt pour le développement full-stack, où je peux concevoir des solutions complètes et efficaces.<br /><br />Curieuse, sérieuse et impliquée, j'aime travailler en équipe, partager mes connaissances et apprendre des autres. Mon objectif est de continuer à évoluer dans un environnement collaboratif où je peux contribuer de manière significative tout en développant mes compétences.";
 
 const About = () => {
   const words = text.split(/(<br \/>| )/g);
