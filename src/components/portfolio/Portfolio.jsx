@@ -84,13 +84,15 @@ const Portfolio = () => {
               {window.innerWidth > 800 && (
                 <motion.img
                   src={
-                    projectData.images !== null
-                      ? projectData.images[0]
+                    projectData.imagesLandscape !== null
+                      ? projectData.imagesLandscape[0]
                       : noImage
                   }
                   alt="website project image"
                   className={
-                    projectData.images !== null ? "" : "noImageAvailable"
+                    projectData.imagesLandscape !== null
+                      ? ""
+                      : "noImageAvailable"
                   }
                 ></motion.img>
               )}
@@ -135,13 +137,28 @@ const Portfolio = () => {
               )}
 
               <div className="imagesBox">
-                {info.images !== null ? (
-                  info.images.map((image) => (
-                    <img src={image} alt="website project zoom" srcset="" />
+                {info.imagesLandscape !== null ? (
+                  info.imagesLandscape.map((image) => (
+                    <img
+                      src={image}
+                      alt="website project zoom"
+                      srcset=""
+                      className="imagesLandscape"
+                    />
                   ))
                 ) : (
                   <img src={noImage} alt="not available" srcset="" />
                 )}
+                {info.imagesPortrait &&
+                  info.imagesPortrait !== null &&
+                  info.imagesPortrait.map((image) => (
+                    <img
+                      src={image}
+                      alt="website project zoom"
+                      srcset=""
+                      className="imagesPortrait"
+                    />
+                  ))}
               </div>
             </motion.div>
           </>

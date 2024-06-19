@@ -57,8 +57,18 @@
   justify-content: center;
   flex-wrap: wrap;
 }
-.imagesBox > img {
-  width: 47%;
+.imagesLandscape {
+  max-width: 47%;
+  max-height: 200px;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  margin: 0.4rem;
+}
+
+.imagesPortrait {
+  max-width: 30%;
+  background-size: contain;
   object-fit: cover;
   border-radius: 0.3rem;
   margin: 0.4rem;
