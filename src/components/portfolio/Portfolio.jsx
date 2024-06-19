@@ -60,7 +60,7 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="projects">
+    <section id="projects" onClick={() => setShow(!show)}>
       <h2>Projets</h2>
       <div className="projectsContainer" ref={ref}>
         <motion.ul
