@@ -54,4 +54,7 @@ header nav ul li a:hover {
     background-color: var(--color-bg-light);
     color: var(--color-dark);
   }
+  header nav ul li a:hover {
+    background-color: transparent;
+  }
 }
