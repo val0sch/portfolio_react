@@ -26,6 +26,7 @@
 @media screen and (max-width: 800px) {
   #about {
     justify-content: flex-start;
+    padding-bottom: 2em;
   }
   .text {
     width: 80%;
