@@ -3,7 +3,6 @@ import mixDrink from "../../assets/mix&drink.png";
 import brasserie from "../../assets/brasserie.png";
 import hackathon2 from "../../assets/hackathon2.png";
 import giveday from "../../assets/giveday.png";
-import todo from "../../assets/todo.png";
 import TMS1 from "../../assets/TMS1.png";
 import TMS2 from "../../assets/TMS2.png";
 import TMS3 from "../../assets/TMS3.png";
@@ -38,17 +37,16 @@ import wildrent3 from "../../assets/wildrent3.png";
 import wildrent4 from "../../assets/wildrent4.png";
 import wildrent5 from "../../assets/wildrent5.png";
 import wildrent6 from "../../assets/wildrent6.png";
+import playground from "../../assets/playground.png";
 
 export const SliderData = [
   {
-    imagesLandscape: [todo],
-    title: "Sticky Note",
+    imagesLandscape: [playground],
+    title: "Playground",
     subtitle: "Projet perso",
-    description:
-      'WORK IN PROGRESS - application Vite+React, Tailwind, Api Express, ORM Prisma. Site de "to do list" avec design de post-it, mise en place de drag-and drop, toggle theme, authentification de l\'utilisateur, possibilité de sauvegarder ses notes ou de les archiver.',
-    url: "https://todoos.up.railway.app/",
-    repo: "https://github.com/val0sch/todo-client",
-    repo2: "https://github.com/val0sch/todo-server",
+    description: "Zone de mini projets",
+    url: "https://playground-valerie.up.railway.app",
+    repo: null,
   },
   {
     imagesLandscape: [
